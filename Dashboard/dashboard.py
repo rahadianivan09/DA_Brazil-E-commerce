@@ -26,11 +26,11 @@ st.set_page_config(
 # ── Load Data ─────────────────────────────────────────────────────────────────
 @st.cache_data
 def load_data():
-    main    = pd.read_csv('dashboard/main_data.csv',
+    main    = pd.read_csv('Dashboard/main_data.csv',
                           parse_dates=['order_purchase_timestamp'])
-    payment = pd.read_csv('dashboard/payment_data.csv',
+    payment = pd.read_csv('Dashboard/payment_data.csv',
                           parse_dates=['order_purchase_timestamp'])
-    rfm     = pd.read_csv('dashboard/rfm_data.csv')
+    rfm     = pd.read_csv('Dashboard/rfm_data.csv')
     return main, payment, rfm
 
 main_df, pay_df, rfm_df = load_data()
