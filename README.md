@@ -4,11 +4,55 @@ terhadap lokasi pemanggilan.
 
 ---
 
+# 🛒 Brazilian E-Commerce Analytics Dashboard
+
+## 📋 Deskripsi Proyek
+Dashboard analisis interaktif berbasis Streamlit untuk dataset Brazilian E-Commerce Public (Olist), mencakup analisis delivery, revenue, RFM segmentation, dan geospatial.
+
+---
+
+## 🚀 Setup Environment
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/rahadianivan09/DA_Brazil-E-commerce.git
+cd DA_Brazil-E-commerce
+```
+
+### 2. Buat Virtual Environment
+```bash
+python -m venv venv
+```
+
+### 3. Aktifkan Virtual Environment
+- **Windows:**
+```bash
+  venv\Scripts\activate
+```
+- **Mac/Linux:**
+```bash
+  source venv/bin/activate
+```
+
+### 4. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 5. Jalankan Dashboard
+```bash
+streamlit run Dashboard/dashboard.py
+```
+
+Dashboard akan otomatis terbuka di browser: `http://localhost:8501`
+
+---
+
 ## ☁️ Dashboard Online (Streamlit Cloud)
 
 Dashboard sudah di-deploy dan dapat diakses di:
 
-👉 **[Link Dashboard](https://your-app-name.streamlit.app)**
+👉 **[Link Dashboard](https://ecomercebrazildashboard.streamlit.app/)**
 
 > Lihat `url.txt` untuk link terbaru.
 
